@@ -1,10 +1,10 @@
 package entity.additional;
 
 public class BiggestCatalogue {
-    private String firstName;
-    private String lastName;
-    private String catalogueName;
-    private int totalMusic;
+    private final String firstName;
+    private final String lastName;
+    private final String catalogueName;
+    private final int totalMusic;
 
     public BiggestCatalogue(String firstName, String lastName, String catalogueName, int totalMusic){
         this.firstName = firstName;
