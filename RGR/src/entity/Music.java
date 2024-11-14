@@ -1,11 +1,11 @@
 package entity;
 
 public class Music {
-    int musicId;
-    String musicName;
-    int creatorId;
-    int catalogueId;
-    int views;
+    private final int musicId;
+    private final String musicName;
+    private final int creatorId;
+    private final int catalogueId;
+    private final int views;
 
     public Music(int musicId, String musicName, int creatorId, int catalogueId, int views){
         this.musicId = musicId;
