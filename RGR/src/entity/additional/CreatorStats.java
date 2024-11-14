@@ -1,9 +1,9 @@
 package entity.additional;
 
 public class CreatorStats {
-    private String firstName;
-    private String lastName;
-    private int views;
+    private final String firstName;
+    private final String lastName;
+    private final int views;
 
     public CreatorStats(String firstName, String lastName, int views){
         this.firstName = firstName;
