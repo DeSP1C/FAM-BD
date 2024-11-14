@@ -1,9 +1,9 @@
 package entity;
 
 public class Catalogue{
-    int catalogueId;
-    String catalogueName;
-    int userId;
+    private final int catalogueId;
+    private final String catalogueName;
+    private final int userId;
 
     public Catalogue(int catalogueId, String catalogueName, int userId){
        this.catalogueId = catalogueId;
