@@ -1,9 +1,9 @@
 package entity;
 
 public class Creator {
-    int creatorId;
-    String firstName;
-    String lastName;
+    private final int creatorId;
+    private final String firstName;
+    private final String lastName;
 
     public Creator(int creatorId, String firstName, String lastName){
         this.creatorId = creatorId;
